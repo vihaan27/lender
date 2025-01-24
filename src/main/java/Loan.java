@@ -3,6 +3,7 @@ public class Loan {
     private int amount;
     private boolean isPaid;
     private double interestRate;
+    public static int MAX_LOAN_AMOUNT = 500;
 
     public Loan(String borrower, int amount, double interestRate) {
         this.borrower = borrower;
